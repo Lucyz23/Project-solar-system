@@ -1,0 +1,9 @@
+.w-full {
+  width: 100%;
+}
+
+.bg-space {
+  background: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

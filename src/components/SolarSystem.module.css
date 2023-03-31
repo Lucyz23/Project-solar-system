@@ -1,0 +1,21 @@
+.planet-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.planets {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.line {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: white;
+    z-index: 0;
+    top: calc(50% - 12px);
+}
